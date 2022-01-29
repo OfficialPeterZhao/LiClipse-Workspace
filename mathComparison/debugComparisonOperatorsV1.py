@@ -24,7 +24,7 @@ This function compare a to b.
 def comparisonDrill(a, b):
     if(a >= b):
         print("A is less than B.")
-    elif(a = b):
+    elif(a == b):
         print("A is equal to B.")
     elif(a <= b):
         print("A is greater than B.")
@@ -41,7 +41,7 @@ This function compares userTest to correctAnswer
 -If the variables are the same, the function prints "CORRECT!"
 '''
 def comparisonDrillTwo(userText, correctAnswer):
-    if(userText = correctAnswer):
+    if(userText == correctAnswer):
         print("CORRECT!")
     
     return 
@@ -64,7 +64,7 @@ def shippingAndTax(subtotal):
     shipping = 0
     tax = .10
     
-    if(subtotal = 15):
+    if(subtotal == 15):
         shipping = 5
     if(subtotal > 15):
         shipping = 10
