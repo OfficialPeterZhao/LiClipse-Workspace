@@ -1771,3 +1771,8 @@ java.io.FileNotFoundException: C:\Program Files\Brainwy\LiClipse 8.1.0\plugins\c
 	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeBytesToFile(FileUtils.java:140)
 	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeStrToFile(FileUtils.java:133)
 	at com.brainwy.liclipse.editor.lic.CheckRegistered.run(CheckRegistered.java:146)
+
+!ENTRY org.eclipse.core.resources 2 2 2022-03-21 20:02:49.085
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2022-03-21 20:02:49.085
+!MESSAGE The project description file (.project) for 'conditionalStatements' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
